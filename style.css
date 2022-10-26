@@ -1,0 +1,72 @@
+/*-------- TYPOGRAPHY ---------*/
+html {
+  font-size: 62.5%; /* Set the root font size on all pages to 62.5% */
+}
+
+body {
+  font-family: "Poppins", sans-serif; /* apply two different Google Fonts to the content on every page */
+  text-align: center; /* Center all the content on every page */
+  font-size: 1.6rem; /* Set the font size of the body element on all pages to 1.6rem */
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive; /* apply two different Google Fonts to the content on every page */
+  font-size: 3rem; /* 3rem = 48px */
+  font-size: 4.8rem; /* Change the font size of all the h1 elements again */
+}
+
+/*-------- NAVIGATION ---------*/
+
+header {
+  background: url("images/hairdressing.jpeg") no-repeat top left; /* Add an appropriate background image */
+  background-attachment: fixed;
+}
+
+nav {
+  background-color: black; /* Change the background colour of the nav on every page + example of using a colour name */
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav a {
+  color: white; /* Change the colour of the links in the nav on every page */
+}
+
+/*-------- CONTENT ---------*/
+
+#heading-special { /* Add a style rule to your external stylesheet using an ID selector, targets the h2 on the homepage */
+  font-family: "Abril Fatface", cursive;
+  font-size: 3.6rem;
+}
+
+.list--no-bullets { /* Add a style rule to your external stylesheet using a class selector, targets the lists on the services page and contact page */
+ padding-left: 0; 
+ list-style-type: none; 
+}
+
+figure img {
+  width: 80%;
+}
+
+figcaption {
+  font-style: italic;
+  color: grey;
+}
+
+/*-------- FOOTER ---------*/
+footer {
+  background-color: #000000;  /* Change the background colour of the footer on every page + example of using a HEX colour */
+  color: white;
+  padding: 40px; /* add negative space around the content in the footer by adding the declaration padding: 40px; */
+}
+
+footer a { /* Add a style rule to your external stylesheet using a descendant selector */
+  color: white; /* Change the colour of the links in the footer on every page */
+}
